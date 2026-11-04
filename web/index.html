@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Storieta — scenes in motion</title>
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<header><a class="brand" href="./">storieta<span> / reels demo</span></a><button id="gallery" aria-pressed="false">Scene wall</button></header>
+<main>
+  <aside>
+    <p class="eyebrow">A story, with depth</p>
+    <h1 id="title">Scenes in motion.</h1>
+    <p id="book" class="book"></p>
+    <p id="caption"></p>
+    <div class="divider"></div>
+    <h2>Inside the scene</h2>
+    <p class="hint">Switch views to see how the illustration comes apart.</p>
+    <div class="modes" role="group" aria-label="View mode">
+      <button data-mode="scene" aria-pressed="true">Scene</button><button data-mode="cast" aria-pressed="false">Cast</button><button data-mode="layers" aria-pressed="false">Layers</button>
+    </div>
+    <div id="cast" role="group" aria-label="Character layers"></div>
+    <label class="depth-label" for="depth">Layer depth <output id="depth-value">50%</output></label>
+    <input id="depth" type="range" min="0" max="100" value="50">
+    <div class="tools"><button id="motion" aria-pressed="true">Pause motion</button><button id="flat" aria-pressed="false">Compare original</button></div>
+    <p id="reading" class="reading" hidden></p>
+    <p id="provenance" class="provenance"></p>
+  </aside>
+  <div class="reader">
+    <div class="reader-bar"><span id="counter" aria-live="polite">Loading scenes…</span><span>Scroll or swipe to turn the scene</span></div>
+    <div id="status" role="status"></div>
+    <div id="scenes" role="region" tabindex="0" aria-label="Scenes; use arrow keys to navigate"></div>
+    <nav aria-label="Scene navigation"><button id="previous" disabled>← Previous</button><span id="position"></span><button id="next" disabled>Next →</button></nav>
+  </div>
+</main>
+<script type="module" src="player.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+meta-sam-parser==0.1.0
+numpy>=1.26
+Pillow>=10.1
+scipy>=1.11

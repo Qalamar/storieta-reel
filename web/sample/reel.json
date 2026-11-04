@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "title": "Storieta / sample scenes",
+  "provenance": "Archived artwork from an earlier workflow. Included to demonstrate playback; not output from a fresh run of the current Meta pipeline.",
+  "scenes": [
+    {
+      "title": "The woman",
+      "book": "A Scandal in Bohemia",
+      "caption": "Yet\u00a0this woman earned a respect he gave to very few\u00a0people.",
+      "width": 531,
+      "height": 661,
+      "image": "sherlock-0-p2-flat.webp",
+      "background": "sherlock-0-p2-far.webp",
+      "layers": [
+        {
+          "name": "Irene Adler",
+          "src": "sherlock-0-p2-lead.webp"
+        },
+        {
+          "name": "Sherlock Holmes",
+          "src": "sherlock-0-p2-mid.webp"
+        }
+      ]
+    },
+    {
+      "title": "A story to tell",
+      "book": "A Scandal in Bohemia",
+      "caption": "I\u00a0am Dr. Watson, his friend. Let me tell you how they\u00a0met.",
+      "width": 458,
+      "height": 661,
+      "image": "sherlock-0-p3-flat.webp",
+      "background": "sherlock-0-p3-far.webp",
+      "layers": [
+        {
+          "name": "Sherlock Holmes",
+          "src": "sherlock-0-p3-lead.webp"
+        },
+        {
+          "name": "Irene Adler",
+          "src": "sherlock-0-p3-mid.webp"
+        }
+      ]
+    },
+    {
+      "title": "Trouble in Verona",
+      "book": "Romeo and Juliet",
+      "caption": "A confrontation in the streets of Verona.",
+      "width": 493,
+      "height": 564,
+      "image": "romeo-0-p2-flat.webp",
+      "background": "romeo-0-p2-far.webp",
+      "layers": [
+        {
+          "name": "Sampson",
+          "src": "romeo-0-p2-lead.webp"
+        },
+        {
+          "name": "Gregory, Abram, Abram's younger companion",
+          "src": "romeo-0-p2-mid.webp"
+        }
+      ]
+    }
+  ]
+}
